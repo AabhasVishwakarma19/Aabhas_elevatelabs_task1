@@ -20,11 +20,15 @@ research_common_ports_and_risk.md                     Notes or research about po
 commands_nmap.png                                     Screenshot showing various Nmap commands used during the scan.
   
 wireshark_capture_analysis.png                        Screenshot of Wireshark with highlighted SYN packets for analysis.
+
+
 🧪 Tools Used
 
     Nmap: For port scanning and service detection.
     Wireshark: For capturing and analyzing packet-level data.
     Linux (Kali): Operating system used for conducting scans and analysis.
+
+
 
 🔍 Tasks Completed
 1. Common Services Running on Open Ports
