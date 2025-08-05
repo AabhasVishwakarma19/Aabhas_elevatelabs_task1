@@ -1,0 +1,21 @@
+# Internship Task – Port & Service Analysis
+
+#Common Services Running on Open Ports
+
+| IP Address | Port | Service | Description |
+|------------|------|---------|-------------|
+| 10.0.2.3 | 53/tcp | dnsmasq 2.51 (DNS) | Lightweight DNS and DHCP server |
+| 10.0.2.2 | 135/tcp | Microsoft RPC | Used for remote procedure calls in Windows |
+| 10.0.2.2 | 445/tcp | Microsoft SMB | File and printer sharing in Windows |
+| 142.250.193.46 | 80/tcp | HTTP (gws) | Google web server |
+| 142.250.193.46 | 443/tcp | HTTPS (gws) | Google secure web server |
+
+# Security Risks
+
+| Port | Risk |
+|------|------|
+| 53 | DNS cache poisoning, amplification attacks |
+| 135 | Windows DCOM/RPC vulnerabilities |
+| 445 | SMB exploits (e.g., EternalBlue, WannaCry) |
+| 80 | Unencrypted data, vulnerable to XSS/injection |
+| 443 | Depends on TLS config, weak ciphers possible |
