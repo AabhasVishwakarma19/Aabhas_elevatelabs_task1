@@ -1,4 +1,5 @@
- 🌐 Internship Project: Port Scanning & Network Analysis
+# 🌐 Internship Project
+# Task 1 -Port Scanning & Network Analysis
 
 
 This repository contains my cybersecurity internship task, which involves analyzing network ports, researching common services, and evaluating potential security risks using tools like Nmap and Wireshark.
@@ -22,7 +23,7 @@ commands_nmap.png                                     Screenshot showing various
 wireshark_capture_analysis.png                        Screenshot of Wireshark with highlighted SYN packets for analysis.
 
 
-🧪 Tools Used
+# 🧪 Tools Used
 
     Nmap: For port scanning and service detection.
     Wireshark: For capturing and analyzing packet-level data.
@@ -30,7 +31,7 @@ wireshark_capture_analysis.png                        Screenshot of Wireshark wi
 
 
 
-🔍 Tasks Completed
+# 🔍 Tasks Completed
 1. Common Services Running on Open Ports
 
 Based on the Nmap output, the following services were identified:
@@ -49,15 +50,12 @@ Based on the Nmap output, the following services were identified:
     Port 80: Transmits data unencrypted, susceptible to MITM attacks.
     Port 443: More secure but can be misconfigured with weak TLS versions.
 
-🖥️ Wireshark Observations
+# 🖥️ Wireshark Observations
 The Wireshark capture file shows SYN packets from 10.0.2.17 scanning multiple ports on other IPs. This is typical behavior for an Nmap TCP SYN ("stealth") scan. Reset responses and filtered ports are also visible
 
-Screenshots
-1 NMAP commands screenshots.
-2 Wireshark capture screenshot.
 
 
-📌 Summary
+# 📌 Summary
 
 This analysis helped me understand how to:
 
